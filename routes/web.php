@@ -6,6 +6,6 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
     $name = 'John Doe';
-    return view('home', ['name'=> $name]);
+    return view('home', compact('name'));
 });
 
