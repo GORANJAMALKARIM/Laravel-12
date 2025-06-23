@@ -8,5 +8,6 @@
 </head>
 <body>
     <p>{{$name}}</p>
+    <p>{{$message}}</p>
 </body>
 </html>
