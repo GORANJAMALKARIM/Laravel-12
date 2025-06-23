@@ -9,5 +9,13 @@
 <body>
     <p>{{$name}}</p>
     <p>{{$message}}</p>
+    
+    @if($name == 'John')// hier name not equal to John deswegen wird Hello Guest printen         <p>Hello John!</p>
+    @else 
+        <p>Hello Guest!</p>
+    @endif
+    
+
+    
 </body>
 </html>
