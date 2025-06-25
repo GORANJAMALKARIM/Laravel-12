@@ -15,9 +15,9 @@
     @else 
         <p>Hello Guest!</p>
     @endif --}}
-    @php
+    {{-- @php
       $name = 'Goran';   
-    @endphp
+    @endphp --}}
    
     {{-- @switch($name)
         @case('John')
@@ -33,7 +33,10 @@
     <p>i= {{ $i }}</p>
 @endfor --}}
 @php
-        $users = ['John', 'Jane', 'Goran'];
+        $users = [];//ich habe hier ein leeres Array erstellt
+        // $users = ['John', 'Jane', 'Goran'];habe ich gelöscht
+        //  und wir brauchen if else nicht mehr wir können direkt eine massege printen 
+        
     @endphp
     @foreach ($users as $user)
         <p>{{ $user }}</p>
@@ -47,6 +50,12 @@
         @endforeach
     </ul>
 
+    @forelse ($users as $user)
+        <p>{{ $user }}</p>
+    @empty
+
+        <p>No users found.</p>
+    @endforelse
    
 
     
