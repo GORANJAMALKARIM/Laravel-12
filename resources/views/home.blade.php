@@ -7,15 +7,28 @@
     <title>Document</title>
 </head>
 <body>
+
     <p>{{$name}}</p>
     <p>{{$message}}</p>
     
-    @if($name == 'John')// hier name not equal to John deswegen wird Hello Guest printen         <p>Hello John!</p>
+    {{-- @if($name == 'John')// hier name not equal to John deswegen wird Hello Guest printen         <p>Hello John!</p>
     @else 
         <p>Hello Guest!</p>
-    @endif
-    
-
+    @endif --}}
+    @php
+      $name = 'Goran';   
+    @endphp
+   
+    @switch($name)
+        @case('John')
+            <p>Hello John!</p>
+            @break
+        @case('Jane')
+            <p>Hello Jane!</p>
+            @break
+       @case('Goran')
+            <p>Hello Goran!</p>
+       @endswitch
     
 </body>
 </html>
