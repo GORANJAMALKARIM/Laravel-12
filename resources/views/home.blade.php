@@ -29,9 +29,25 @@
        @case('Goran')
             <p>Hello Goran!</p>
        @endswitch --}}
-    @for ($i = 0; $i < 5; $i++)
+    {{-- @for ($i = 0; $i < 5; $i++)
     <p>i= {{ $i }}</p>
-@endfor
+@endfor --}}
+@php
+        $users = ['John', 'Jane', 'Goran'];
+    @endphp
+    @foreach ($users as $user)
+        <p>{{ $user }}</p>
+    @endforeach
+
+    
+
+    <ul>
+        @foreach ($users as $user)
+            <li>{{ $user }}</li>
+        @endforeach
+    </ul>
+
+   
 
     
 </body>
