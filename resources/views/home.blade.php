@@ -8,8 +8,8 @@
 </head>
 <body>
 
-    <p>{{$name}}</p>
-    <p>{{$message}}</p>
+    {{-- <p>{{$name}}</p>
+    <p>{{$message}}</p> --}}
     
     {{-- @if($name == 'John')// hier name not equal to John deswegen wird Hello Guest printen         <p>Hello John!</p>
     @else 
@@ -19,7 +19,7 @@
       $name = 'Goran';   
     @endphp
    
-    @switch($name)
+    {{-- @switch($name)
         @case('John')
             <p>Hello John!</p>
             @break
@@ -28,7 +28,11 @@
             @break
        @case('Goran')
             <p>Hello Goran!</p>
-       @endswitch
+       @endswitch --}}
+    @for ($i = 0; $i < 5; $i++)
+    <p>i= {{ $i }}</p>
+@endfor
+
     
 </body>
 </html>
