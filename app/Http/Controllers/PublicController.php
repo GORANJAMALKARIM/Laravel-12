@@ -11,5 +11,9 @@ class PublicController extends Controller
      return view('home');
 
  }
+    public function about()
+    {
+        return view('about');
+    }
  
 }
