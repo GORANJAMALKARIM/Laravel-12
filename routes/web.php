@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\ProductController;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\PublicController;
 use App\Http\Controllers\PublicRecourceController;
@@ -8,6 +9,8 @@ use Dom\Comment;
 Route::get('/home',[PublicController::class ,'index'])->name('home');
 
 Route::get('/about',[PublicController::class ,'about'])->name('about');
+Route::get('product/index',[ProductController::class ,'index']);
+Route::get('product/stor',[ProductController::class ,'insert']);
 
 Route::resource('public', PublicRecourceController::class)->names([
     'index' => 'public.index',
