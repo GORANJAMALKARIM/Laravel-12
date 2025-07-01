@@ -19,7 +19,12 @@ class ProductController extends Controller
         ['Goran',100.00,50.00,25.00]);
        return 'Data inserted successfully';
     
-       
+
     }
-       
+     
+  public function delete( $id)
+    {
+        DB::delete('delete from products where id = ?', [$id]);
+        return 'Data deleted successfully';
+    }
 }

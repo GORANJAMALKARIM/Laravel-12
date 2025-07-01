@@ -11,6 +11,7 @@ Route::get('/home',[PublicController::class ,'index'])->name('home');
 Route::get('/about',[PublicController::class ,'about'])->name('about');
 Route::get('product/index',[ProductController::class ,'index']);
 Route::get('product/stor',[ProductController::class ,'insert']);
+Route::get('/product/delete/{id}',[ProductController::class ,'delete']);
 
 Route::resource('public', PublicRecourceController::class)->names([
     'index' => 'public.index',
