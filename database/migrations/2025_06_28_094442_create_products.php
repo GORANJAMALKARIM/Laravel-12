@@ -15,7 +15,7 @@ return new class extends Migration
             $table->id();
             $table->string('name')->nullable(); 
             $table->double('price')->nullable();
-            
+             $table->double('Palary')->nullable();
             // Name of the product
             $table->timestamps();
         });
