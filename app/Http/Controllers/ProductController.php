@@ -15,7 +15,7 @@ class ProductController extends Controller
     }
     public function insert()
     {
-       DB::insert('insert into products (name,price,Palary,calculat) values (?,?,?,? )',
+       DB::insert('insert into products (name,price,Palary,calculat) values (?,?,?,?)',
         ['Goran',100.00,50.00,25.00]);
        return 'Data inserted successfully';
     
