@@ -13,22 +13,16 @@ return new class extends Migration
     {
         Schema::create('products', function (Blueprint $table) {
             $table->id();
-            $table->string('name')->nullable(); 
-            $table->double('price')->nullable();
-             $table->double('Palary')->nullable();
-             $table->double('calculatt')->nullable();
+            $table->string('name');
+         $table->double('price');
+            $table->text('note',3000)->nullable();
 
-
-    
-            // Name of the product
             $table->timestamps();
         });
     }
 
     /**
-     * Reverse the migrations.wenn wir die Migration rückgängig machen wollen, löschen wir die Tabelle.
-     * This method is called when rolling back the migration.
-     * It drops the 'products' table.
+     * Reverse the migrations.
      */
     public function down(): void
     {
