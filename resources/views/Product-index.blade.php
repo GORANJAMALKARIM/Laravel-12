@@ -7,7 +7,13 @@
     <title>Document</title>
 </head>
 <body>
-    index of product
+
+   <form action="{{ route('products.store')}}" method="POST">
+    @csrf
+   <input type="text" name="name" placeholder="name">
+   <input type="number" name="price" placeholder="price">
+    <input type="text" name="note" placeholder="note">
+   <button type="submit">Submit</button></form>
    <Table>
          <thead>
               <tr>
@@ -18,14 +24,15 @@
               </tr>
          </thead>
          <tbody>
-              @foreach ($products as $product)
+              @foreach ($products as $index=> $product)
                 <tr>
-                     <td>{{ $product->id }}</td>
+                     <td>{{ $index+1 }}</td>
                      <td>{{ $product->name }}</td>
                      <td>{{ $product->price }}</td>
                      <td>{{ $product->note }}</td>
                 </tr>
               @endforeach
+              
          </tbody>
    </Table>
    

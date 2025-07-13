@@ -7,4 +7,5 @@ use App\Http\Controllers\PublicRecourceController;
 use App\Http\Controllers\OrmController;
 use Dom\Comment;
 
-Route::resource('/products', ProductController::class);
+
+Route::resource('products', ProductController::class)->names('products');

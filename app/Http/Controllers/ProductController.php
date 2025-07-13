@@ -35,9 +35,14 @@ class ProductController extends Controller
      */
     public function store(Request $request)
     {
+   Product::create([
+            'name' => $request->input('name'),
+            'price' => $request->input('price'),
+            'note' => $request->input('note'),
+        ]);
+        return redirect()->route('products.index')->with('success', 'Product created successfully.');
         // Logic to store a new product
     }
-
     /**
      * Display the specified product.
      *
