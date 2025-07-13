@@ -16,7 +16,7 @@ return new class extends Migration
             $table->string('name');
          $table->double('price');
             $table->text('note',3000)->nullable();
-
+ 
             $table->timestamps();
         });
     }

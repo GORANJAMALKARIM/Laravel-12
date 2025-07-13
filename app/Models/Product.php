@@ -9,22 +9,10 @@ class Product extends Model
 {
  use HasFactory;
 
-    /**
-     * The attributes that are mass assignable.
-     *
-     * @var list<string>
-     */
-    protected $fillable = [
-        'name',
-        'price',
-        'note',
-    ];
-protected $guarded = [];      
+    
+protected $guarded = [
+    
+];      
    
-    protected function casts(): array
-    {
-        return [
-            'price' => 'double',
-        ];
-    }
+
 }
