@@ -21,6 +21,7 @@
                 <th>Name</th>
                 <th>Price</th>
                 <th>Category</th>
+                <th>Action</th>
               </tr>
          </thead>
          <tbody>
@@ -30,11 +31,12 @@
                      <td>{{ $product->name }}</td>
                      <td>{{ $product->price }}</td>
                      <td>{{ $product->note }}</td>
+                         <td><a href="{{ route('products.edit',['product'=>$product->id]) }}">Edit</a></td>
                 </tr>
               @endforeach
               
          </tbody>
    </Table>
-   
+</form>
 </body>
 </html>

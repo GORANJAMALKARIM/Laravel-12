@@ -1,0 +1,42 @@
+[33m1fe0b03[m[33m ([m[1;36mHEAD[m[33m)[m HEAD@{0}: checkout: moving from main to HEAD~1
+[33m2d03d99[m[33m ([m[1;32mmain[m[33m)[m HEAD@{1}: reset: moving to 2d03d99ed7ab78bf0165be3f8717b2f45cc8d6f9
+[33m187282e[m[33m ([m[1;31morigin/main[m[33m)[m HEAD@{2}: reset: moving to 187282e5de3de5518eeb2b2ec922d9815f28157c
+[33m187282e[m[33m ([m[1;31morigin/main[m[33m)[m HEAD@{3}: commit: Stor und redirect index page
+[33m2d03d99[m[33m ([m[1;32mmain[m[33m)[m HEAD@{4}: commit: work with Table und zuruck die ale Daten
+[33m1fe0b03[m[33m ([m[1;36mHEAD[m[33m)[m HEAD@{5}: commit: Factory Seeder
+[33me3cbd25[m HEAD@{6}: commit: ORM Method for insert und Delete data
+[33m7f7ef91[m HEAD@{7}: commit: change Model
+[33mb756682[m HEAD@{8}: commit: Make Model
+[33mc1c962a[m HEAD@{9}: commit: Delete , insert , select , Update
+[33m7a3936d[m HEAD@{10}: commit: Use DB dusch Facades insert und retrave date
+[33m186a4fe[m HEAD@{11}: commit: Migrate:refresh
+[33mad81c31[m HEAD@{12}: commit: Migrate Table
+[33m9447ad8[m HEAD@{13}: commit: Use Migration
+[33m7f7ce92[m HEAD@{14}: commit: Rout (Public, only, except ... und so weiter)
+[33m309d7a2[m HEAD@{15}: commit: add PublicResourceController mit den Recourcen -r
+[33m394e825[m HEAD@{16}: commit: update Repo
+[33m5e3d58a[m HEAD@{17}: reset: moving to HEAD
+[33m5e3d58a[m HEAD@{18}: commit: make Controller
+[33m3941687[m HEAD@{19}: commit: simpel and vollstandige URL
+[33m6259808[m HEAD@{20}: commit: Wechsel den Page mit einander
+[33mfa3ed0a[m HEAD@{21}: commit: Create Layouts
+[33mc7dbb54[m HEAD@{22}: checkout: moving from 9e4d8e0af227278efb12cb43ea8432b0bb8e2c06 to main
+[33m9e4d8e0[m HEAD@{23}: commit: Create Layouts extend und INclud
+[33mc7dbb54[m HEAD@{24}: checkout: moving from main to c7dbb54fb466411d38ee4e70dcdd1bcb50595073
+[33mc7dbb54[m HEAD@{25}: commit: add (.extend .section .and yield
+[33m03150f0[m HEAD@{26}: commit: @forelse
+[33mcdd66f1[m HEAD@{27}: commit: @foreach und Array
+[33m52e26a7[m HEAD@{28}: commit: @forLoop
+[33mc076d04[m HEAD@{29}: commit: @php @endphp,switch case
+[33m6117ed9[m HEAD@{30}: commit: Logical Operato if
+[33m0bf05ea[m HEAD@{31}: commit: addition und Multiplikation
+[33md31229f[m HEAD@{32}: commit: send data to anothor Page durch Conpact
+[33mfa946de[m HEAD@{33}: commit: send data to anothor Page
+[33m72b069f[m HEAD@{34}: commit: 1
+[33mba5e5e0[m HEAD@{35}: reset: moving to HEAD~1
+[33m3643d75[m HEAD@{36}: reset: moving to HEAD~1
+[33m23d2703[m HEAD@{37}: commit: Mein Name geschrieben habe
+[33m3643d75[m HEAD@{38}: commit: change Welcome page
+[33mba5e5e0[m HEAD@{39}: Branch: renamed refs/heads/Main to refs/heads/main
+[33mba5e5e0[m HEAD@{41}: Branch: renamed refs/heads/master to refs/heads/Main
+[33mba5e5e0[m HEAD@{43}: commit (initial): Erster commit
